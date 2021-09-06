@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Icon -->
+		<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet" />
+		<link rel="stylesheet" href="./assets/css/style.css" />
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Exercise 6</title>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="header__inner">
+					<div class="header__content">
+						<div class="header__logo">
+							<img src="./assets/img/logo.svg" alt="logo" />
+						</div>
+						<div class="header__search">
+							<div class="search__btn">
+								<a href="#">
+									<span>All</span>
+									<span class="material-icons-round"> arrow_drop_down </span>
+								</a>
+								<!-- dropdown -->
+								<ul class="search__dropdown">
+									<li class="search-dropdown__item">
+										<a href="#"><span>Digital Music</span></a>
+									</li>
+									<li class="search-dropdown__item">
+										<a href="#"><span>Health & Household</span></a>
+									</li>
+									<li class="search-dropdown__item">
+										<a href="#"><span>Women’s Fashion</span></a>
+									</li>
+									<li class="search-dropdown__item">
+										<a href="#"><span>Men’s Fashion</span></a>
+									</li>
+									<li class="search-dropdown__item">
+										<a href="#">
+											<span>Beauty & Personal Care</span>
+											<span class="dropdown-item-arrow-icon material-icons-outlined">
+												chevron_right
+											</span>
+										</a>
+										<ul class="search__sub-dropdown">
+											<li class="search-dropdown__item">
+												<a href="#"><span>Digital Music</span></a>
+											</li>
+											<li class="search-dropdown__item">
+												<a href="#"><span>Health & Household</span></a>
+											</li>
+											<li class="search-dropdown__item">
+												<a href="#"><span>Women’s Fashion</span></a>
+											</li>
+											<li class="search-dropdown__item">
+												<a href="#"><span>Men’s Fashion</span></a>
+											</li>
+										</ul>
+									</li>
+									<li class="search-dropdown__item">
+										<a href="#"><span>Home & Kitchen</span></a>
+									</li>
+								</ul>
+								<!-- dropdown -->
+							</div>
+							<div class="search__wrapper">
+								<input
+									type="text"
+									name="search-box"
+									id="headerSearch"
+									placeholder="What do you want to find?"
+								/>
+								<span class="material-icons-outlined"> search </span>
+							</div>
+						</div>
+						<div class="header__user-group">
+							<div class="user-group__cart">
+								<span class="material-icons-outlined"> shopping_cart </span>
+								<span>Cart</span>
+							</div>
+							<div class="user-group__profile">
+								<div class="user-group-profile__inner">
+									<span class="material-icons-round"> account_circle </span>
+									<span>Tôn Nữ Bảo Ngọc</span>
+									<span class="material-icons-round"> arrow_drop_down </span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Flex -->
+		<div class="card">
+			<h3 class="card__title">Flower</h3>
+			<p class="card__desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum, soluta!</p>
+			<button class="card__btn">See More</button>
+		</div>
+	</body>
+</html>

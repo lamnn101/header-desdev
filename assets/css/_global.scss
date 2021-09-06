@@ -1,0 +1,23 @@
+@import "./mixin";
+
+.container {
+	width: 100%;
+	padding: 0 16px;
+	margin: 0 auto;
+
+	@include sm {
+		max-width: 572px;
+	}
+
+	@include md {
+		max-width: 752px;
+	}
+
+	@include lg {
+		max-width: 992px;
+	}
+
+	@include xl {
+		max-width: 1172px;
+	}
+}
